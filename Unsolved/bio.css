@@ -1,0 +1,107 @@
+
+body {
+  background-image: url('clouds.jpg');
+  background-size: 100%, 100%;
+}
+
+h1 {
+  font-size: 72px;
+  font-family: cursive;
+  text-align: center;
+  background: -webkit-linear-gradient(rgb(225, 0, 255), #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+h3 {
+    font-size: 25px;
+    color: white;
+    background: -webkit-linear-gradient(rgb(225, 0, 255), rgb(226, 188, 188));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+img {
+  border-radius: 8%;
+  
+  
+}
+
+.container {
+    position: relative;
+    width: 20%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: transparent;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+#pir{
+    position: absolute;
+    left: 80%;
+    top: 100%
+    box-shadow: 10px 10px 5px purple;
+}
+
+#peacepic{
+    position: absolute;
+    left: 40%;
+    box-shadow: 10px 10px 5px pink;
+}
+
+#alaa{
+    position: absolute;
+    left: 1%;
+    box-shadow: 10px 10px 5px red;
+    box-shadow: 10px 10px 5px white;
+}
+
+.social{
+    position: absolute;
+    color: white;
+    font-family: 'Courier New';
+    font-size: 20px;
+    left: 80%;
+    top: 100
+}
+
+table{
+    width: 50%;
+    height: 50%;
+    background-color:rgb(255, 189, 200);
+    color: purple;
+     border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 round
+}
+
